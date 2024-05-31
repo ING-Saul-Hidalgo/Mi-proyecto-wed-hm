@@ -1,0 +1,210 @@
+/* estilo de letras para las cartas*/
+a {
+    font: oblique bold 120% cursive;
+}
+h2{
+    font: oblique bold 120% cursive;  
+}
+button:hover {
+    background-color: #FF5733;
+    color: black;
+    font: oblique bold 90% cursive;
+}
+p {
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+  }
+
+header{
+    background-color: #FF5733 ;
+    height: 90px; 
+    text-align: center; 
+    padding-top: 40px; 
+}
+.container nav a {
+    display: inline-block;
+    margin-left: 40px; 
+    text-decoration: none;
+    color: floralwhite; 
+    font-weight: bold;
+}
+
+.container nav a:hover {
+    color: black; 
+}
+.input-container {
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.input-container input[type="text"] {
+    width: 300px; 
+    height: 20px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    outline: none; 
+}
+.input-container button {
+    padding: 10px 20px; 
+    height: 40px; 
+    border-radius: 20px; 
+    border: none; 
+    background-color: #FF5733; 
+    color: #fff; 
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+.input-container button:hover {
+    background-color: black; 
+}
+
+/* codigo para las imagenes y los posicionamientos*/
+
+.imagenes1,
+.imagenes2,
+.imagenes3,
+.imagenes4,
+.imagenes5,
+.imagenes6,
+.imagenes7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imagenes1 .left,
+.imagenes1 .center,
+.imagenes1 .right,
+.imagenes2 .left,
+.imagenes2 .center,
+.imagenes2 .right,
+.imagenes3 .left,
+.imagenes3 .center,
+.imagenes3 .right,
+.imagenes4 .left,
+.imagenes4 .center,
+.imagenes4 .right,
+.imagenes5 .left,
+.imagenes5 .center,
+.imagenes5 .right,
+.imagenes6 .left,
+.imagenes6 .center,
+.imagenes6 .right,
+.imagenes7 .left,
+.imagenes7 .center,
+.imagenes7 .right {
+    width: 30%; 
+    padding: 20px;
+    box-shadow: 0 4px 8px #FF5733;
+    transition: transform 0.3s;
+}
+
+.imagenes1 .left img,
+.imagenes1 .center img,
+.imagenes1 .right img,
+.imagenes2 .left img,
+.imagenes2 .center img,
+.imagenes2 .right img,
+.imagenes3 .left img,
+.imagenes3 .center img, 
+.imagenes3 .right img,
+.imagenes4 .left img,
+.imagenes4 .center img,
+.imagenes4 .right img,
+.imagenes5 .left img,
+.imagenes5 .center img,
+.imagenes5 .right img,
+.imagenes6 .left img,
+.imagenes6 .center img,
+.imagenes6 .right img,
+.imagenes7 .left img,
+.imagenes7 .center img,
+.imagenes7 .right img {
+    width: 90%;
+    height: auto;
+}
+
+/* Efecto hover */
+.imagenes1 .left:hover,
+.imagenes1 .center:hover,
+.imagenes1 .right:hover,
+.imagenes2 .left:hover,
+.imagenes2 .center:hover,
+.imagenes2 .right:hover,
+.imagenes3 .left:hover,
+.imagenes3 .center:hover,
+.imagenes3 .right:hover,
+.imagenes4 .left:hover,
+.imagenes4 .center:hover,
+.imagenes4 .right:hover,
+.imagenes5 .left:hover,
+.imagenes5 .center:hover,
+.imagenes5 .right:hover,
+.imagenes6 .left:hover,
+.imagenes6 .center:hover,
+.imagenes6 .right:hover,
+.imagenes7 .left:hover,
+.imagenes7 .center:hover,
+.imagenes7 .right:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #FF5733;
+}
+
+/*COLOR PARA EL EL TEXTO DENTRO DE LAS CARTAS*/
+
+h2:hover{
+    color: #FF5733;
+}
+section footer {
+    background-color: #FF5733;
+    padding: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    border-top: 1px solid #dddddd;
+}
+
+/**/
+
+/* Estilos para el submenú */
+nav ul.Equipos {
+    display: none; /* Ocultar el submenú por defecto */
+    position: absolute; /* Posición absoluta para que se sitúe debajo del enlace "Equipos" */
+    background-color: #333; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  nav ul.Equipos li {
+    display: block; /* Mostrar los elementos del submenú como bloques */
+  }
+  
+  nav ul.Equipos li a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  /* Mostrar el submenú al pasar el cursor sobre "Equipos" o el submenú */
+  nav a[href="Equipos.html"]:hover + ul.Equipos,
+  nav ul.Equipos:hover {
+    display: block;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
